@@ -50,6 +50,7 @@ body {
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1.6;
+    height: 100%;
 }
 
 section {
@@ -278,6 +279,7 @@ header {
         grid-area: img;
         min-width: 250px;
         position: relative;
+        border-radius: 10px;
         z-index: 2;
     }    
     
@@ -436,7 +438,7 @@ header {
     background: #111;
     color: var(--color-accent);
     text-align: center;
-    padding: 2.5em 0;
+    padding: 4em 0;
     font-size: var(--fs-h3);
 
 
@@ -459,6 +461,7 @@ header {
 .footer__link:hover {
     text-decoration: underline;
 }
+
 
 .social-list {
     list-style: none;
